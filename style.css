@@ -1,0 +1,58 @@
+
+.main{
+    text-align: center;
+    margin: 10px auto;
+    width: 50%;
+}
+
+.btn{
+padding: 10px;
+margin: 5px;
+font-size: 1.5rem;
+}
+
+.datadiv{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* margin: 0 auto; */
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    padding: 20px;
+    /* height: 100px; */
+    width: 20% 
+}
+
+.card{
+margin: 5px;
+width: 30rem;
+background: transparent;
+}
+
+img{
+    width: 20rem;
+    height: 30rem;
+}
+.buybtn{
+    position: relative;
+    bottom: 2px;
+}
+
+.starimg{
+height: 40px;
+width: 40px;
+}
+
+@media screen and (max-width: 600px){
+    .datadiv{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+    }
+
+}
